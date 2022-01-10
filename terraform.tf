@@ -3,7 +3,7 @@ provider "aws" {
    }
    resource "aws_instance" "server" {
    ami  = "ami-0b0ea68c435eb488d"
-   instance_type = "t2micro"
+   instance_type = "t2.micro"
    subnet_id = "subnet-031005e9fb14203ab"
    security_groups = ["sg-0523d191625fff949"]
    key_name = aws_key_pair.key.id
