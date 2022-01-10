@@ -20,7 +20,7 @@ variable "security_group" {
 
 variable "VPC" {
   description = "VPC for ec2"
-  default     = "My VPC"
+  default     = "TM-VPC-Abishek"
 }
 
 variable "tag_name" {
