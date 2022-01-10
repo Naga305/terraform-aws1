@@ -2,6 +2,7 @@ provider "aws" {
    region  = "us-east-1"
    }
    resource "aws_instance" "server" {
+   count = 1
    ami  = "ami-0b0ea68c435eb488d"
    instance_type = "t2.micro"
    subnet_id = "subnet-031005e9fb14203ab"
