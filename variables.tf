@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "sg-0523d191625fff949"
+  default     = "sg-00018a48c726a0834"
 }
 
 variable "tag_name" {
