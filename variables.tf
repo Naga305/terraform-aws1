@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "MyNewSecurityGroup"
+  default     = "sg-0523d191625fff949"
 }
 
 variable "VPC" {
