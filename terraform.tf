@@ -8,7 +8,7 @@ provider "aws" {
    security_groups = ["sg-0523d191625fff949"]
    key_name = aws_key_pair.key.id
 
-   tag = {
+   tags = {
     name = "terraform-server"   
    } 
 }
