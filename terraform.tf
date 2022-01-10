@@ -8,7 +8,6 @@ provider "aws" {
    subnet_id = "subnet-031005e9fb14203ab"
    security_groups = ["sg-0523d191625fff949"]
    key_name = aws_key_pair.key.id
-
    tags = {
     name = "terraform-server"   
    } 
