@@ -18,6 +18,11 @@ variable "security_group" {
   default     = "MyNewSecurityGroup"
 }
 
+variable "VPC" {
+  description = "VPC for ec2"
+  default     = "My VPC"
+}
+
 variable "tag_name" {
   description = "Tag Name of for Ec2 instance"
   default     = "my-ec2-instance"
