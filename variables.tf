@@ -27,3 +27,4 @@ variable "ami_id" {
   description = "AMI for Ubuntu Ec2 instance"
   default     = "ami-0b0ea68c435eb488d"
 }
+
