@@ -8,7 +8,7 @@ resource "aws_instance" "myFirstInstance" {
   ami           = var.ami_id
   key_name = var.key_name
   instance_type = var.instance_type
-  security_groups= [var.security_group]
+  security_groups= "sg-00018a48c726a0834"
   tags= {
     Name = var.tag_name
   }
