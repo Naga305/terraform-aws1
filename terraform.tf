@@ -9,7 +9,7 @@ provider "aws" {
    security_groups = ["sg-096fa3022f2685521"]
    key_name = aws_key_pair.key.id
    tags = {
-     name = "terraform"   
+     name = "terraform-server"   
    } 
 }
 resource "aws_key_pair" "key" {
