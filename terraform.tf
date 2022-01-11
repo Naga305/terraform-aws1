@@ -1,12 +1,12 @@
 provider "aws" {
-   region  = "us-east-1"
+   region  = "us-east-2"
    }
    resource "aws_instance" "server" {
    count = 1
-   ami  = "ami-0b0ea68c435eb488d"
+   ami  = "ami-05803413c51f242b7"
    instance_type = "t2.micro"
-   subnet_id = "subnet-031005e9fb14203ab"
-   security_groups = ["sg-0523d191625fff949"]
+   subnet_id = "subnet-887bc2e3"
+   security_groups = ["sg-096fa3022f2685521"]
    key_name = aws_key_pair.key.id
    tags = {
      name = "terraform"   
